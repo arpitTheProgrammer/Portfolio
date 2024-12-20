@@ -1,0 +1,11 @@
+
+.Projects{
+    font-size: 30px;
+    position: relative;
+    top: 13px;
+    font-family: cursive;
+    font-weight: lighter;
+    /* border: 2px solid black; */
+    width: 500px;
+    left: 300px;
+}

@@ -1,0 +1,120 @@
+.background{
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* position: relative; */
+    z-index: -1;
+}
+
+.center-font{
+    position: relative;
+    /* border: 2px solid black; */
+    left: 0px;
+    top: 0px;
+    left: 50px;
+    width: 1200px;
+}
+.center-font h3{
+    /* color: white; */
+    position: relative;
+    left: 520px;
+    width: 700px;
+    top: 50px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 2px solid gray; */
+}
+
+.center-font span{
+position: relative;
+top: 60px;
+left: -300px;
+}
+.center-font img{
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    opacity: 0.8;
+    left: 330px;
+    height: 150px;
+}
+.home-skill{
+    color: gray;
+    text-align: center;
+    font-size: 40px;
+}
+
+.social-handle{
+position: relative;
+width: 100vw;
+z-index: -1;
+height: 868px;
+/* border: 2px solid black; */
+}
+
+.handles{
+    position: relative;
+    top: -513px;
+    height: 156px;
+    /* margin: 20px; */
+    /* padding: 29px; */
+    left: 433px;
+    border-radius: 100px;
+}
+
+
+.insta{
+    transform: rotate(5deg);
+    transform-origin: center;
+    position: relative;
+    left: 280px;
+}
+
+.insta:hover{
+        cursor: pointer;
+        /* height: 200px ;  */
+        box-shadow: 1px 6px 12px gray;
+        transition: box-shadow 0.3s ease;
+        transition: transform 0.5s ease;
+        transform: scale(1.2);
+}
+
+.lkdin{
+    transform: rotateZ(-10deg);
+    transform-origin: center;
+    left: 550px;
+    /* top: 50px; */
+}
+
+.lkdin:hover{
+    cursor: pointer;
+    /* height: 200px ;  */
+    box-shadow: 1px 6px 12px gray;
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.5s ease;
+    transform: scale(1.2);
+}
+.git:hover{
+    cursor: pointer;
+    /* height: 200px ;  */
+    box-shadow: 1px 6px 12px gray;
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.5s ease;
+    transform: scale(1.2);
+}
+
+.container {
+     animation: showHome 1s forwards;
+}
+
+@keyframes showHome {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}

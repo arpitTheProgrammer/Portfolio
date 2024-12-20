@@ -1,0 +1,28 @@
+.container-nav{
+    width: 100vw;
+    /* border: 2px solid gray; */
+    border-radius: 30px;
+    background-color: #adadad21;
+    
+    width: 99vw;
+    height: 100px;
+    position: relative;
+    /* left: 10px; */
+}
+.item{
+    float: left;
+    padding: 2px 30px;
+    font-size: 20px;
+    /* color: white; */
+}
+.item:hover{
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color: rgba(128, 128, 128, 0.103);
+    border-radius: 20px;
+}
+.item-list{
+    position: relative;
+    left: 100px;
+    top: 15px;
+}
